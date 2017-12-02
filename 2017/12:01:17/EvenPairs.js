@@ -14,9 +14,7 @@
 // Output:"false"
 
 function EvenPairs(str) { 
-
   var split = str.split('');
-
   var checkNumber = char => {
   	var number = '0123456789'
   	for (var j = 0; j < number.length; j++){
@@ -26,7 +24,6 @@ function EvenPairs(str) {
   	}
   	return false;
   }
-
   var check = str => {
   	for (var k = 1; k < str.length; k++){
   		var first = Number(str.substr(0, k))
@@ -37,17 +34,14 @@ function EvenPairs(str) {
   	}
   	return false;
   }
-
   var number = ''
   for (var i = 0; i < split.length; i++) {
-  	console.log(split.length)
   	if (checkNumber(split[i])) {
       number = number + split[i]
       if (i === split.length - 1 && check(number)){
       	return true;
       }
   	} else {
-  		console.log(number)
   		if (check(number)){
   			return true;
   		}
@@ -55,8 +49,6 @@ function EvenPairs(str) {
   	} 
   }
   return false;
-
-         
 }
 
 console.log(EvenPairs("f09r27i8e67"))
