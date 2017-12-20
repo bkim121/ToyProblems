@@ -30,4 +30,4 @@ function NonrepeatingCharacter(str) {
   return str[0]
 }
 
-console.log(NonrepeatingCharacter("kkooggrrerermmmnnmnmmw"))
+console.log(NonrepeatingCharacter("hello world hi hey"))
