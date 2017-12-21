@@ -1,2 +1,2 @@
 # Largest Pair
-December 2nd, 2017 (coderByte)
+December 2, 2017 (coderByte)

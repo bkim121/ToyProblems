@@ -1,2 +1,2 @@
 # TwoSums
-December 19nd, 2017 (coderByte)
+December 19, 2017 (coderByte)

@@ -1,2 +1,2 @@
 # Even Pairs
-December 1st, 2017 (coderByte)
+December 1, 2017 (coderByte)
