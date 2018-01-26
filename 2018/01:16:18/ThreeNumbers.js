@@ -50,7 +50,6 @@ function ThreeNumbers(str) {
     } else {
       return false;
     }
-
   }
 
   for (var i = 0; i < split.length; i++) {
@@ -58,9 +57,7 @@ function ThreeNumbers(str) {
       return false;
     }
   }
-
   return true;
-
 }
 
 
