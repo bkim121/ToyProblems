@@ -24,7 +24,7 @@
 // On the second line, print the number of oranges that fall on Sam's house.
 
 
-// Sample Input 0
+// Sample Input
 
 // 7 11
 // 5 15
@@ -33,7 +33,7 @@
 // 5 -6
 
 
-// Sample Output 0
+// Sample Output
 
 // 1 1
 
