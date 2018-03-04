@@ -26,10 +26,8 @@
 
 function divisibleSumPairs(n, k, ar) {
     // Complete this function
-  console.log(n, k, ar)
   var answer = 0;
   for (var i = 0; i < ar.length - 1; i++){
-    console.log(i)
     for (var j = i + 1; j < ar.length; j++){
       if ((ar[i] + ar[j]) % k === 0){
         answer++;
