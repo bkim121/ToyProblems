@@ -62,7 +62,6 @@ function pickingNumbers(a) {
       }
     }
   }
-
   if (largest > 0 && largest > obj[current[0]]){
     return largest
   } else {
