@@ -36,7 +36,6 @@
 
 function angryProfessor(k, a) {
   // Complete this function
-  console.log(k, a)
   var early = 0;
   for (var i = 0; i < a.length; i++){
     if (a[i] <= 0){
