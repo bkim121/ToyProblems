@@ -95,7 +95,6 @@ function hourglassSum(arr) {
       }
     }
   }
-  console.log(max)
   return max
 }
 
